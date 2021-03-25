@@ -10,7 +10,7 @@ tests_require = ["nose2", "nose2-cov==1.0a4"]
 
 extras_requires = {"dev": install_requires + tests_require}
 
-entry_points = {"console_scripts": ["resize_building_images = resize_building_images:main"]}
+entry_points = {"console_scripts": ["python_kafka_demo = python_kafka_demo:main"]}
 
 setup(
     name="python_kafka_demo",
