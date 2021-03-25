@@ -13,8 +13,8 @@ extras_requires = {"dev": install_requires + tests_require}
 entry_points = {"console_scripts": ["resize_building_images = resize_building_images:main"]}
 
 setup(
-    name="resize_building_images",
-    version="1.0.0",
+    name="python_kafka_demo",
+    version="0.0.1",
     description="",
     author="github.com/raface",
     author_email="contact@rafagomes.com",
